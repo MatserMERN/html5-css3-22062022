@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <h1 class="header"></h1>
+    <h1 class="header"></h1>
+    <script>
+        var divElement = document.getElementById("container")
+        divElement.innerText ="<strong>This is DIV</strong>"
+        divElement.innerHTML ="<strong>This is DIV</strong>"
+        divElement.style.color="blue"
+        console.log(divElement)
+
+        var headerOne = document.getElementsByClassName("header")
+        headerOne[0].innerText ="This is Header One"
+        headerOne[0].style.backgroundColor = "crimson"
+        headerOne[0].style.color = "white"
+        console.log(headerOne)
+
+        var headerTwo = document.getElementsByClassName("header")
+        headerTwo[1].innerText ="This is Header Two"
+        headerTwo[1].style.backgroundColor = "crimson"
+        headerTwo[1].style.color = "white"
+        console.log(headerTwo)
+    </script>
+</body>
+</html>

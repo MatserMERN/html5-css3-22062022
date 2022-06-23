@@ -35,3 +35,7 @@ For Audio Files (.mp3, .wav, etc), use:
 For PDF Files, use:
 
 <input type="file" accept=".pdf" /> 
+
+For Docx Files, use:
+
+<input type="file" accept=".docx">
